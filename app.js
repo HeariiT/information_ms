@@ -8,7 +8,7 @@ var app = express()
 const PORT = 3003;
 
 // connect to DB
-mongoose.connect('mongodb://information_db:3305/songs_information');
+mongoose.connect('mongodb://information-db:3305/songs_information');
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: true }))
